@@ -31,7 +31,17 @@ para probar
 python -m websockets wss://polar-temple-15218.herokuapp.com/
 
 para subir al repositorio de github
-   git push -u origin master 
+   git push -u origin main
 is used for pushing local content to GitHub.
 In the code, the origin is your default remote repository name and '-u' flag is upstream, which is equivalent to '-set-upstream.' and the master is the branch, name.upstream is the repository that we have cloned the project.
 Fill in your GitHub username and password.
+no lo pude hacer por medio de los comandos,  como pude fue:
+
+Abrir GitHub desktop
+Crear un repositorio en documentos/GitHub/jzwsocket
+copiar los archivos que deseo en el repositorio
+En el programa GitHubDesktop,  hacer en el menu superior 
+donde dice el current branck hacer una nueva branch llamada main,
+en la siguiente pestaña de menu ejecutar publish repository
+
+y en este menu, publicar 
