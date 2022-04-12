@@ -1,7 +1,7 @@
 import { createBoard, playMove } from "./connect4.js";
 
 function getWebSocketServer() {
-  if (window.location.host === "josezf5.github.io") {
+  if (window.location.host === "josezf5.github.io/jzwsocket") {
     return "wss://polar-temple-15218.herokuapp.com/";
   } else if (window.location.host === "localhost:8000") {
     return "ws://localhost:8001/";
